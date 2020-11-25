@@ -1,0 +1,32 @@
+.Experience {
+  padding: 0 5rem;
+  padding-top: 70px;
+  text-align: center;
+  margin: auto;
+}
+
+.Experience h2 {
+  margin-bottom: 6rem;
+  font-size: 50px;
+}
+
+@media (max-width: 700px) {
+  .Experience {
+    padding: 0 2rem;
+    padding-top: 70px;
+    padding-bottom: 5rem;
+  }
+
+  .Experience h2 {
+    margin-bottom: 4rem;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 450px) {
+  .Experience {
+    padding: 0 1rem;
+    padding-top: 70px;
+    padding-bottom: 5rem;
+  }
+}

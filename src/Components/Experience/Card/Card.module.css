@@ -1,0 +1,134 @@
+.Card {
+  border-radius: 1rem;
+  box-shadow: 0 5px 3rem -1rem black;
+  max-width: 1000px;
+  margin: 10px auto 40px;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: transform 0.5s;
+}
+
+.Card:hover {
+  transform: scale(1.03);
+}
+
+.Card .head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Card .head img {
+  margin: 20px 0 0 20px;
+  height: 50px;
+}
+
+.Card .head p {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 0 1rem 0 1rem;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.Card .body {
+  text-align: left;
+  margin: 0 1.5rem 0;
+}
+
+.Card .body h2 {
+  font-size: 30px;
+  margin: 10px 0;
+  color: black;
+}
+
+.Card .body .subHead {
+  font-size: 28px;
+  margin: 10px 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.Card .body p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  word-spacing: 1px;
+}
+
+@media (max-width: 550px) {
+  .Card .head img {
+    height: 30px;
+    margin: 15px 0 0 15px;
+  }
+
+  .Card .head p {
+    padding: 14px;
+    font-size: 14px;
+  }
+
+  .Card .body h2 {
+    font-size: 22px;
+  }
+
+  .Card .body .subHead {
+    font-size: 20px;
+  }
+
+  .Card .body p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Card .head img {
+    height: 24px;
+    margin: 13px 0 0 13px;
+  }
+
+  .Card .head p {
+    padding: 12px 13px;
+    font-size: 10px;
+  }
+
+  .Card .body h2 {
+    font-size: 20px;
+  }
+
+  .Card .body .subHead {
+    font-size: 18px;
+  }
+
+  .Card .body p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .Card .head img {
+    height: 20px;
+  }
+
+  .Card .head p {
+    font-size: 10px;
+  }
+
+  .Card .body {
+    margin: 0 1rem 0;
+  }
+
+  .Card .body h2 {
+    font-size: 17px;
+  }
+
+  .Card .body .subHead {
+    font-size: 15px;
+  }
+
+  .Card .body p {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,47 @@
+.About {
+  padding: 0 2rem;
+  padding-top: 70px;
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+  transition: padding 0.5s;
+}
+
+.About h2 {
+  font-size: 50px;
+}
+
+.About p {
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  line-height: 2;
+}
+
+@media (max-width: 700px) {
+  .About {
+    padding: 0 2rem;
+    padding-top: 70px;
+    padding-bottom: 5rem;
+  }
+
+  .About h2 {
+    margin-bottom: 4rem;
+    font-size: 35px;
+  }
+  .About p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .About {
+    padding: 0 1rem;
+    padding-top: 70px;
+    padding-bottom: 5rem;
+  }
+  .About p {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    line-height: 2;
+  }
+}

@@ -1,0 +1,104 @@
+.Home {
+  background-image: url(./../../assets/images/prof-pic.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #3c8fd1;
+  height: 960px;
+  position: relative;
+}
+
+.Home .Intro {
+  max-width: 500px;
+  text-align: center;
+  margin-left: 150px;
+  padding-top: 150px;
+}
+
+.Home .Intro h1 {
+  font-size: 3.75rem;
+  color: #fefefe;
+  font-weight: 700;
+}
+
+.Home .Intro h2 {
+  font-size: 1.875rem;
+  color: #e6e9ec;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.Home .Intro a {
+  display: inline-block;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 0.4rem 1.75rem 0.6rem;
+  border-radius: 3rem;
+  background-color: black;
+  color: #c5c5c5;
+  margin-top: 1rem;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+}
+
+.wave svg {
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .Home .Intro {
+    margin-left: 80px;
+  }
+  .Home .Intro h1 {
+    font-size: 2.7rem;
+  }
+
+  .Home .Intro h2 {
+    font-size: 1.5rem;
+  }
+
+  .Home .Intro a {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .Home .Intro {
+    margin-left: 0px;
+  }
+
+  .Home .Intro h1 {
+    font-size: 2.7rem;
+  }
+
+  .Home .Intro h2 {
+    font-size: 1.5rem;
+  }
+
+  .Home .Intro a {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .Home .Intro {
+    margin-left: 0px;
+    padding-top: 200px;
+  }
+
+  .Home .Intro h1 {
+    font-size: 2.3rem;
+  }
+
+  .Home .Intro h2 {
+    font-size: 1.2rem;
+  }
+
+  .Home .Intro a {
+    font-size: 1.2rem;
+  }
+}
